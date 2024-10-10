@@ -1,0 +1,32 @@
+vendedor-autos-usados/
+│
+├── controllers/        
+│   ├── autosController.js
+│   ├── recomendacionesController.js
+│   └── usuariosController.js       # Controlador para login y registro
+│
+├── models/             
+│   ├── auto.js
+│   └── usuario.js
+│
+├── routes/             
+│   ├── autosRoutes.js
+│   ├── recomendacionesRoutes.js
+│   └── usuariosRoutes.js           # Rutas para registro y login
+│
+├── middlewares/        
+│   └── authMiddleware.js           # Middleware para autenticación JWT
+│
+├── services/           
+│   └── iaRecomendaciones.js
+│
+├── utils/              
+│   └── db.js                      # Conexión a la base de datos
+│
+├── config/             
+│   └── default.json               # Configuración general
+│
+├── .env                          # Variables de entorno
+├── index.js                      # Punto de entrada del backend
+├── package.json                  # Dependencias del proyecto
+└── README.md                     # Documentación
